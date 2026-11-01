@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from 'react';
 import { PillNav } from '@/components/reactbits';
 import { useTheme } from '@/theme/ThemeProvider';
@@ -31,6 +32,20 @@ export default function Header() {
             barColor="var(--card)" textColor="var(--fg)" highlightColor={meta.accent} ariaLabel="Navigasi utama"
           />
         </div>
+=======
+import ThemeSwitcher from './ThemeSwitcher';
+
+const links = [['profile', 'Profile'], ['about', 'About'], ['skill', 'Skill'], ['project', 'Project'], ['galeri', 'Galeri'], ['musik', 'Musik'], ['sosmed', 'Sosmed']];
+
+export default function Header() {
+  return (
+    <header className="top">
+      <div className="wrap">
+        <a className="brand" href="#home">Malvin</a>
+        <nav className="nav" aria-label="Navigasi utama">
+          {links.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}
+        </nav>
+>>>>>>> 52e6c963b23e9bf4be2d5b0fd92cf866013618ab
         <ThemeSwitcher />
       </div>
     </header>

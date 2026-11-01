@@ -18,7 +18,10 @@ export { default as CurvedInput } from './CurvedInput/CurvedInput.jsx';
 export { default as Lanyard } from './Lanyard/Lanyard.jsx';
 export { default as CircularCarousel } from './CircularCarousel/CircularCarousel.jsx';
 export { ScrollStackItem } from './ScrollStack/ScrollStack.jsx';
+<<<<<<< HEAD
 export { default as Dock } from './Dock/Dock.jsx';
 export { default as PillNav } from './PillNav/PillNav.jsx';
 export { default as ProfileCard } from './ProfileCard/ProfileCard.jsx';
 export { default as HoloCard } from './HoloCard/HoloCard.jsx';
+=======
+>>>>>>> 52e6c963b23e9bf4be2d5b0fd92cf866013618ab

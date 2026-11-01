@@ -1,6 +1,9 @@
 import { ClickSpark } from '@/components/reactbits';
 import Header from '@/components/Header';
+<<<<<<< HEAD
 import MobileDock from '@/components/MobileDock';
+=======
+>>>>>>> 52e6c963b23e9bf4be2d5b0fd92cf866013618ab
 import { ThemeProvider, useTheme } from '@/theme/ThemeProvider';
 import Hero from '@/sections/Hero';
 import Band from '@/sections/Band';
@@ -21,7 +24,10 @@ function Shell() {
         <Hero /><Band /><Profile /><About /><Skills /><Projects /><Gallery /><Music /><Contact />
       </main>
       <footer className="foot wrap">© {new Date().getFullYear()} Malvin — Portfolio &amp; Digital Services</footer>
+<<<<<<< HEAD
       <MobileDock />
+=======
+>>>>>>> 52e6c963b23e9bf4be2d5b0fd92cf866013618ab
     </ClickSpark>
   );
 }

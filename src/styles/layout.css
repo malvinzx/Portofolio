@@ -13,10 +13,19 @@
 .icon-btn svg { width: 22px; height: 22px; fill: currentColor; }
 
 /* Header */
+<<<<<<< HEAD
 .top { position: relative; z-index: 30; padding-block: 14px; }
 .nav-wrap { flex: 1 1 320px; min-width: 0; }
 .logo-mark { font: var(--fw-d) 1.05rem/1 var(--font-d); color: var(--fg); }
 .top .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; }
+=======
+.top { padding-block: 14px; }
+.top .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; }
+.brand { font: var(--fw-d) 1.25rem/1 var(--font-d); text-decoration: none; }
+.nav { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.95rem; }
+.nav a { text-decoration: none; padding: 6px 2px; color: var(--muted); }
+.nav a:hover { color: var(--fg); }
+>>>>>>> 52e6c963b23e9bf4be2d5b0fd92cf866013618ab
 .theme-switch { max-width: 100%; }
 
 /* Hero */
@@ -31,7 +40,11 @@
 
 /* Profile / About */
 .split { display: grid; grid-template-columns: minmax(0, 360px) minmax(0, 1fr); gap: clamp(20px, 4vw, 48px); align-items: start; }
+<<<<<<< HEAD
 .pc-wrap { width: 100%; display: flex; justify-content: center; }
+=======
+.profile-card { width: 100%; max-width: 360px; margin-inline: auto; }
+>>>>>>> 52e6c963b23e9bf4be2d5b0fd92cf866013618ab
 .facts { display: grid; gap: 12px; margin: 0; }
 .facts div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding-bottom: 12px; border-bottom: var(--bw) solid var(--line); }
 .facts dt { color: var(--muted); } .facts dd { margin: 0; font-weight: 600; text-align: right; }
@@ -56,7 +69,10 @@
 /* Gallery */
 .gal-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 8px; }
 .gal-stage { width: 100%; height: clamp(340px, 72vw, 540px); position: relative; overflow: hidden; }
+<<<<<<< HEAD
 .gal-stage--holo { height: auto; min-height: 0; display: grid; place-items: center; padding-block: 24px; overflow: visible; }
+=======
+>>>>>>> 52e6c963b23e9bf4be2d5b0fd92cf866013618ab
 
 /* Music */
 .music { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(16px, 3vw, 32px); align-items: start; }
@@ -71,6 +87,7 @@
 .social-list .btn { flex-direction: column; align-items: flex-start; text-align: left; gap: 2px; }
 .social-list small { font-weight: 400; color: inherit; opacity: 0.75; overflow-wrap: anywhere; }
 .lanyard-box { width: 100%; height: clamp(380px, 90vw, 560px); position: relative; touch-action: pan-y; }
+<<<<<<< HEAD
 .dock-layer { display: none; }
 .foot { padding-block: 32px 48px; text-align: center; color: var(--muted); font-size: 0.9rem; }
 
@@ -78,6 +95,11 @@
   .dock-layer { display: block; position: fixed; inset: 0; z-index: 40; pointer-events: none; }
   .dock-layer .dock { pointer-events: auto; }
   .foot { padding-bottom: calc(110px + env(safe-area-inset-bottom, 0px)); }
+=======
+.foot { padding-block: 32px 48px; text-align: center; color: var(--muted); font-size: 0.9rem; }
+
+@media (max-width: 820px) {
+>>>>>>> 52e6c963b23e9bf4be2d5b0fd92cf866013618ab
   .split, .music, .contact { grid-template-columns: minmax(0, 1fr); }
   .contact .lanyard-box { order: -1; }
 }

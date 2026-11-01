@@ -29,4 +29,8 @@ export const tracks = [
     artist: 'Coldplay',
     src: '/music/track-5.mp3'
   }
+<<<<<<< HEAD
 ];
+=======
+];
+>>>>>>> 52e6c963b23e9bf4be2d5b0fd92cf866013618ab
