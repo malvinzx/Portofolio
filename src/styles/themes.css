@@ -1,0 +1,25 @@
+:root, [data-theme='minimal'] {
+  --bg: #f6f6f4; --fg: #141414; --muted: #5c5c58; --accent: #1f1f1f; --on-accent: #fff;
+  --card: #fff; --line: #dcdcd8; --radius: 12px; --shadow: none; --bw: 1px; --blur: 0px;
+  --font-d: 'Instrument Sans', system-ui, sans-serif; --font-b: 'Instrument Sans', system-ui, sans-serif; --fw-d: 700;
+}
+[data-theme='neo'] {
+  --bg: #e9e9e9; --fg: #000; --muted: #222; --accent: #ffd60a; --on-accent: #000;
+  --card: #fff; --line: #000; --radius: 6px; --shadow: 5px 5px 0 #000; --bw: 3px; --blur: 0px;
+  --font-d: 'Space Grotesk', system-ui, sans-serif; --font-b: 'Space Grotesk', system-ui, sans-serif; --fw-d: 700;
+}
+[data-theme='glass'] {
+  --bg: #0a1a2a; --fg: #eaf6ff; --muted: #a9c4d8; --accent: #6ee7d0; --on-accent: #04221c;
+  --card: rgba(255, 255, 255, 0.08); --line: rgba(255, 255, 255, 0.2); --radius: 22px; --shadow: 0 10px 40px rgba(0, 0, 0, 0.35); --bw: 1px; --blur: 18px;
+  --font-d: 'Outfit', system-ui, sans-serif; --font-b: 'Outfit', system-ui, sans-serif; --fw-d: 600;
+}
+[data-theme='glass'] body {
+  background: radial-gradient(60vmax 50vmax at 12% 8%, #1c6e8c66, transparent 60%), radial-gradient(55vmax 45vmax at 88% 30%, #2dd4bf40, transparent 60%), radial-gradient(50vmax 50vmax at 30% 95%, #3b4bd855, transparent 60%), var(--bg);
+  background-attachment: fixed;
+}
+[data-theme='ink'] {
+  --bg: #0b0b0c; --fg: #f2f2f0; --muted: #a0a09c; --accent: #c8ff3d; --on-accent: #0b0b0c;
+  --card: #151517; --line: #2a2a2e; --radius: 4px; --shadow: none; --bw: 1px; --blur: 0px;
+  --font-d: 'Sora', system-ui, sans-serif; --font-b: 'Sora', system-ui, sans-serif; --fw-d: 700;
+}
+body, .card, .btn { transition: background-color 0.3s, color 0.3s, border-color 0.3s; }
